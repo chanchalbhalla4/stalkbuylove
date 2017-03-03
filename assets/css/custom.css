@@ -20,13 +20,15 @@ img {
 .contact{
 
   position: absolute;
-  width: 320px;
-  color: rgba(255, 255, 255, 0.6);
-  background-color:rgba(0, 0, 0, 1);
+  width: 320px;c
+  color: rgba(255, 255, 255, 1);
+  background-color:rgba(0, 0, 0, 0.3);
   height: 440px;
   z-index: 4;
   padding: 10px;
 }
 .foot{
+  background-color: black;
+  color: rgba(255, 255, 255, 0.8);
   margin-top: 30px;
 }
