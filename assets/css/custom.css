@@ -1,3 +1,4 @@
+
 img {
   padding: 2px;
 }
@@ -31,4 +32,76 @@ img {
   background-color: black;
   color: rgba(255, 255, 255, 0.8);
   margin-top: 30px;
+}
+#header{
+  text-align: center;
+  margin: 20px auto;
+  background: url("../image/img188.jpg");
+  background-size: cover;
+}
+#header p{
+  color: rgba(0,0,0,1);
+  margin-top: 20px;
+  font-size: 30px;
+  margin: 4px auto 224px;
+}
+#header h2{
+
+  font-size: 849%;
+  font-family: 'Monoton', cursive;
+
+}
+#header i{
+  font-size: 30px;
+}
+
+.decorationline{
+  font-size: 50px;
+}
+.d-line{
+  width: 22%;
+  height: 2px;
+  border: 2px solid black;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+#about{
+  margin: 8%;
+
+}
+#about h3{
+  margin-top: 4%;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Julius Sans One', sans-serif;
+}
+#about p{
+  margin-top: 1%;
+  font-size: 20px;
+  font-family: 'Droid Serif', serif;
+  text-align: center;
+}
+#new h3{
+  font-size: 45px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+#collection{
+
+}
+#collection h3{
+  margin-top: 4%;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Julius Sans One', sans-serif;
+}
+.decorationline{
+  font-size: 50px;
+}
+.d-line{
+  width: 22%;
+  height: 2px;
+  border: 2px solid black;
+  display: inline-block;
+  margin-bottom: 16px;
 }
