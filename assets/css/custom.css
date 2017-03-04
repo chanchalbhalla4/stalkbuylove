@@ -7,12 +7,18 @@ img {
   width: 40%;
 }
 .social-icons i{
-  font-size: 22px;
+  font-size: 26px;
+  padding: 0px 5px;
+  color: rgba(196, 18, 34, 0.79);
 }
 .team-members {
-  border-radius: 55%;
-  border: 3px solid black;
+  border-radius: 50%;
+  border: 4px solid silver;
 }
+.team-members img{
+  padding: 0px;
+}
+
 .map{
 
   position: relative;
@@ -149,7 +155,48 @@ img {
   font-family: 'Droid Serif', serif;
   text-align: inherit;
 }
-#think
-{
-  margin: 20px;
+#team{
+  margin: 10px;
+
+}
+#team h3{
+  margin-top: 4%;
+  font-size: 23px;
+  font-weight: bold;
+  color: rgba(196, 18, 34, 0.79);
+  font-family: 'Julius Sans One', sans-serif;
+}
+#team p{
+  margin: 2%;
+  font-size: 18px;
+  font-family: 'Droid Serif', serif;
+  text-align: center;
+}
+#team h2{
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+#customer {
+  margin: 10px;
+}
+#customer h3{
+  margin-top: 4%;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Julius Sans One', sans-serif;
+}
+#customer p{
+  margin: 2%;
+  font-size: 20px;
+  font-family: 'Droid Serif', serif;
+  text-align: center;
+}
+#customer i{
+  color: rgba(196, 18, 34, 0.79);
+  padding: 2px 15px;
+}
+#customer a{
+  font-weight: bold;
+  color: rgba(196, 18, 34, 0.79);
 }
