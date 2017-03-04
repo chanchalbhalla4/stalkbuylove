@@ -87,6 +87,7 @@ img {
   font-family: 'Julius Sans One', sans-serif;
 }
 #collection{
+  margin: 8px;
 
 }
 #collection h3{
@@ -95,13 +96,12 @@ img {
   font-weight: bold;
   font-family: 'Julius Sans One', sans-serif;
 }
-.decorationline{
-  font-size: 50px;
+#collection p{
+  margin-bottom: 30px;
+  font-size: 22px;
+  text-align: center;
 }
-.d-line{
-  width: 22%;
-  height: 2px;
-  border: 2px solid black;
-  display: inline-block;
-  margin-bottom: 16px;
+.row h4{
+  font-family: 'Droid Serif', serif;
+
 }
