@@ -36,8 +36,9 @@ img {
 }
 .foot{
   background-color: black;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   margin-top: 30px;
+  font-family: 'Droid Serif', serif;
 }
 #header{
   text-align: center;
@@ -114,6 +115,12 @@ img {
 #tops{
   margin: 8px;
 }
+#tops h2{
+  margin-top: 4%;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Julius Sans One', sans-serif;
+}
 #tops h3{
   margin-top: 4%;
   font-size: 45px;
@@ -128,9 +135,15 @@ img {
 #lookbook{
   margin: 8px;
 }
-#lookbook h3{
+#lookbook h2{
   margin-top: 4%;
   font-size: 45px;
+  font-weight: 600;
+  font-family: 'Julius Sans One', sans-serif;
+}
+#lookbook h3{
+  margin-top: 4%;
+  font-size: 30px;
   font-weight: bold;
   font-family: 'Julius Sans One', sans-serif;
 }
@@ -141,6 +154,12 @@ img {
 }
 #diaries{
   margin: 8px;
+}
+#diaries a{
+  color:rgba(196, 18, 34, 0.79);
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
 }
 #diaries h3{
   margin-top: 4%;
@@ -155,7 +174,24 @@ img {
   font-family: 'Droid Serif', serif;
   text-align: inherit;
 }
+#think{
+  margin: 10px;
+}
+#think h3{
+  margin-top: 4%;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Julius Sans One', sans-serif;
+}
+#think p{
+    padding-top: 40px;
+    margin: 2%;
+    font-size: 20px;
+    font-family: 'Droid Serif', serif;
+    text-align: inherit;
+}
 #team{
+  padding-top: 40px;
   margin: 10px;
 
 }
@@ -199,4 +235,57 @@ img {
 #customer a{
   font-weight: bold;
   color: rgba(196, 18, 34, 0.79);
+}
+#meet{
+  padding-top: 30px;
+}
+
+
+/*styling or small devices*/
+
+@media (max-width:736px)  {
+  .decorationline{
+    font-size: 36px;
+    text-align: center;
+  }
+  .down{
+    padding-top: -20px;
+  }
+  #header{
+    width: 100%;
+    background-position: left;
+}
+  #header h2{
+    padding-top: 60px;
+    margin-left: 6px;
+    font-size: 35px;
+    text-align: justify;
+  }
+  #header h3{
+    font-size: 9px;
+
+  }
+  #header p{
+    font-size: 20px;
+    padding-top: 25px;
+  }
+#about{
+  width: 100%;
+}
+#about h3{
+
+  font-size: 29px;
+  text-align: justify;
+}
+#about p{
+  font-size: 16px;
+  text-align: center;
+
+}
+#new{
+  width: 100%;
+}
+#new h3{
+  font-size: 29px;
+}
 }
