@@ -2,6 +2,7 @@
 img {
   padding: 2px;
 }
+
 .social-icons{
   border-top: 3px solid grey;
   width: 40%;
@@ -53,7 +54,7 @@ img {
   margin: 4px auto 224px;
 }
 #header h2{
-
+  padding-top: 70px;
   font-size: 849%;
   font-family: 'Monoton', cursive;
 
@@ -239,7 +240,12 @@ img {
 #meet{
   padding-top: 30px;
 }
-
+a:hover {
+    color: red;
+}
+a:visited {
+    color: green;
+}
 
 /*styling or small devices*/
 
@@ -256,7 +262,7 @@ img {
     background-position: left;
 }
   #header h2{
-    padding-top: 60px;
+    padding-top: 100px;
     margin-left: 6px;
     font-size: 35px;
     text-align: justify;
@@ -271,21 +277,39 @@ img {
   }
 #about{
   width: 100%;
+
 }
 #about h3{
 
-  font-size: 29px;
+  font-size: 30px;
   text-align: justify;
 }
 #about p{
   font-size: 16px;
   text-align: center;
+  display: inline-block;
 
 }
 #new{
   width: 100%;
 }
 #new h3{
-  font-size: 29px;
+  font-size: 30px;
+}
+#collection h3{
+  font-size: 30px;
+  text-align: center;
+}
+#collection p{
+  font-size: 20px;
+}
+#lookbook a{
+  font-size: 20px;
+}
+#lookbook p{
+  font-size: 18px;
+}
+#customer h3{
+  font-size: 35px;
 }
 }
