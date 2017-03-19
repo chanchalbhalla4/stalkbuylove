@@ -196,6 +196,12 @@ img {
   margin: 10px;
 
 }
+#team i:hover{
+  color: rgb(245, 26, 45);
+}
+#team h3:hover{
+  color: rgb(245, 26, 45);
+}
 #team h3{
   margin-top: 4%;
   font-size: 23px;
@@ -237,15 +243,19 @@ img {
   font-weight: bold;
   color: rgba(196, 18, 34, 0.79);
 }
+#customer i:hover{
+  color: rgb(245, 26, 45);
+}
+#customer a:hover{
+  color: rgb(245, 26, 45);
+}
 #meet{
   padding-top: 30px;
 }
 a:hover {
-    color: red;
-}
-a:visited {
     color: green;
 }
+
 
 /*styling or small devices*/
 
